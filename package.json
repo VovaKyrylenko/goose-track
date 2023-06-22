@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://goitacademy.github.io/react-homework-template/",
   "dependencies": {
+    "@mui/material": "^5.13.5",
     "@redux-devtools/extension": "^3.2.5",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",
@@ -11,7 +12,6 @@
     "@testing-library/user-event": "^13.5.0",
     "calendar-dates": "^2.7.2",
     "formik": "^2.4.2",
-    "mui": "^0.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-redux": "^8.1.1",
