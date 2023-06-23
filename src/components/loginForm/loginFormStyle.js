@@ -11,6 +11,8 @@ export const Box = styled.div`
 
 export const Container = styled.form`
   margin: 202px 20px;
+  border-radius: 8px;
+  padding: 40px;
 
   background-color: #fff;
   width: 335px;
@@ -27,4 +29,19 @@ export const ScreenName = styled.h2`
 
 export const Label = styled.label`
   color: #3e85f3;
+`;
+
+export const Button = styled.button`
+display: flex;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 46px;
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 56px;
+    font-size: 18px;
+  }
 `;
